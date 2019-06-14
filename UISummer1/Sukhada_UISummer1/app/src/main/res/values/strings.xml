@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sukhada_UISummer1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="my_name">
+        <item>Sukhada</item>
+        <item>Sheth</item>
+    </string-array>
+
+    <string-array name="my_sub">
+        <item>CS 639</item>
+        <item>CS 644</item>
+    </string-array>
+
+</resources>
