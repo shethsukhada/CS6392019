@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="45dp"
 
         android:text="Image from Internet"
         android:textColor="#0B0B14"
@@ -19,8 +19,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="277dp"
-        android:layout_height="337dp"
+        android:layout_width="241dp"
+        android:layout_height="200dp"
 
         tools:src="@drawable/ic_launcher_background" />
 

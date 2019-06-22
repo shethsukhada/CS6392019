@@ -2,9 +2,11 @@ package com.example.asynctaskproject;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.Image;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -12,6 +14,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     Bitmap bitmp;
+    ImageView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,22 +26,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public class ImageWeb extends AsyncTask<Void, Void, Void>
+    public class ImageWeb extends AsyncTask<Void, Void, Bitmap>
     {
 
         @Override
-        protected Void doInBackground(Void... params) {
+        protected Bitmap doInBackground(Void... params) {
+
+            //String birthLoc = "https://images.outlookindia.com/public/uploads/gallery/20160406/mahad_pond_1_20160418_630_630.jpg";
+            String birthLoc = "https://raw.githubusercontent.com/shethsukhada/CS6392019/master/AsyncTaskProject/Mahad.jpg";
+
             try {
-                bitmp = BitmapFactory.decodeStream((InputStream) new URL("https://tourism.hccg.org.tw/english/images/about_01_pic06.jpg").getContent());
+                bitmp = BitmapFactory.decodeStream((InputStream) new URL(birthLoc).getContent());
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return null;
+            return bitmp;
         }
 
-        protected void onPostExecute(Void aVoid) {
+        protected void onPostExecute(Bitmap aVoid) {
             super.onPostExecute(aVoid);
-            im1.setImageBitmap(bit);
+            ImageView mainImage = (ImageView) findViewById(R.id.imageView);
+            mainImage.setImageBitmap(bitmp);
+
         }
     }
 }
