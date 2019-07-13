@@ -1,0 +1,4 @@
+#Fri Jul 12 23:02:27 EDT 2019
+base.0=E\:\\Sukhada\\Codelabs\\DiceRoller 1.3\\DiceRoller\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

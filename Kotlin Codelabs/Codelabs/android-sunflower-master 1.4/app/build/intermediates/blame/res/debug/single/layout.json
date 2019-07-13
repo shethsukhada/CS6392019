@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item_garden_planting.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\list_item_garden_planting.xml"
+    },
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_plant_list.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\fragment_plant_list.xml"
+    },
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_garden.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\fragment_garden.xml"
+    },
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item_plant.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\list_item_plant.xml"
+    },
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_garden.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\activity_garden.xml"
+    },
+    {
+        "merged": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_plant_detail.xml",
+        "source": "E:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\src\\main\\res\\layout\\fragment_plant_detail.xml"
+    }
+]

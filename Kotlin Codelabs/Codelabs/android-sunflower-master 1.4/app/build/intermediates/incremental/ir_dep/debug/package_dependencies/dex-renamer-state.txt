@@ -1,0 +1,4 @@
+#Fri Jul 12 22:48:28 EDT 2019
+base.0=E\:\\Sukhada\\Codelabs\\android-sunflower-master 1.4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
